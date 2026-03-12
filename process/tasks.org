@@ -51,6 +51,19 @@
     - added diagram of architecture
     - added projects conventions document
     - researched git workflows
+    - discovered at least one way to not do it
+  - Thu 12/3:
+    - having found a viable approach, carefully researched how to go about it
+    - performed interactive rebase to gather history into significant commits and describe them in commit messages
+    - performed interactive rebase to gather a few more loose commits
+    - performed interactive rebase to edit a few more commit messages
+    - arranged exopi repository into 3 branches: main, development and support
+    - development has full, un-refactored code
+    - support and main has initial commit
+    - main is based off of first (initial) commit to development
+    - further contributions to main can be added through accepted pull requests from development
+    - started to split off excel file handling to a model component
+    - unfinished work saved to refactor_wip branch
 - Discussion
   - AI
     - Time-saver
